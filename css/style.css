@@ -16,9 +16,8 @@
     margin: 1rem auto;
 }
 .card{
-    float:left;
     margin: 0 5px;
-    position:relative;
+    float:left;
 }
 .card_img{
     position:relative;
@@ -46,7 +45,7 @@
     background-color: red;
     padding: 5px;
 }
-.sale50{
+.sale{
     color: white;
     font-weight: bold;
 }
@@ -61,6 +60,7 @@
 
 /* description txt */
 .description{
+    /* float:left; */
     padding-top: .5rem;
     margin-bottom:2rem;
 }
