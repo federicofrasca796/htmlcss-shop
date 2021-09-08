@@ -10,7 +10,7 @@
     clear: both;
 }
 
-/* main */
+/* main and cards*/
 .container{
     width:80%;
     margin: 1rem auto;
@@ -57,4 +57,30 @@
     padding: 5px;
     content: "Sustainable";
     background-color: #2F815A;
+}
+
+/* description txt */
+.description{
+    padding-top: .5rem;
+    margin-bottom:2rem;
+}
+.brand{
+    color:rgb(68, 68, 68);
+    padding-bottom: 0.4rem;
+}
+.product_name{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.description>h4{
+    display: inline;
+}
+.discount_price{
+    color:red;
+    font-size: 1.2rem;
+}
+.old_price{
+    font-weight: lighter;
+    text-decoration-line: line-through;
+    color: gray;
 }
