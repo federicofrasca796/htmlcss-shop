@@ -10,4 +10,16 @@
     clear: both;
 }
 
-.container{}
+/* main */
+.container{
+    width:80%;
+    margin: 1rem auto;
+}
+.card{
+    float:left;
+    margin: 0 5px;
+    position:relative;
+}
+.product_img{
+    width:300px;    
+} 
