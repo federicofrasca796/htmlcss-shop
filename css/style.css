@@ -20,6 +20,9 @@
     margin: 0 5px;
     position:relative;
 }
+.card_img{
+    position:relative;
+}
 .product_img{
     width:300px;    
 } 
@@ -35,4 +38,15 @@
     background-color: white;
     line-height: 40px;
     text-align: center;
+}
+.discount{
+    position: absolute;
+    bottom:1rem;
+    left:0;
+    background-color: red;
+    padding: 5px;
+}
+.sale50{
+    color: white;
+    font-weight: bold;
 }
