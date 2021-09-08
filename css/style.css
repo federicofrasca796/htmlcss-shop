@@ -18,12 +18,13 @@
 .card{
     margin: 0 5px;
     float:left;
+    width: 349px;
 }
 .img_container{
     position:relative;
 }
 .product_img{
-    width:300px;    
+    width:100%;    
 } 
 
 /* tags, buttons */
@@ -53,6 +54,16 @@
     position:absolute;
     bottom:0;
     left: 52px ;
+    padding: 5px;
+    content: "Sustainable";
+    background-color: #2F815A;
+}
+.only_sustainable::after{
+    color: white;
+    font-weight: bold;
+    position:absolute;
+    bottom:1rem;
+    left: 0px ;
     padding: 5px;
     content: "Sustainable";
     background-color: #2F815A;
