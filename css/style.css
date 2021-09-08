@@ -103,6 +103,6 @@
     left:0;
     display:none;
 }
-.card:hover .img_hidden{
+.img_container:hover .img_hidden{
     display: block;
 }
