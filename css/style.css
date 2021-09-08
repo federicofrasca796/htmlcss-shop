@@ -22,9 +22,12 @@
 }
 .img_container{
     position:relative;
+    filter: drop-shadow(0px 5px 5px rgb(0 0 0 / 0.2));
+    transition: transform .5s;
 }
 .product_img, .img_hidden{
-    width:100%;    
+    width:100%; 
+    border-radius: 5px;
 } 
 
 /* tags, buttons */
@@ -38,6 +41,9 @@
     background-color: white;
     line-height: 40px;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
 }
 .discount{
     position: absolute;
@@ -106,3 +112,12 @@
 .img_container:hover .img_hidden{
     display: block;
 }
+
+.img_container:hover{
+    transform: translateY(-5px);
+    /* transform: scale(105%); */
+}
+/* .product_img:hover,.img_hidden:hover{
+    border:3px solid lightgrey;
+    border-radius: 20px;
+} DITCH*/
