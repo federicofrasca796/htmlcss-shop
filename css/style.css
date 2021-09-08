@@ -23,7 +23,7 @@
 .img_container{
     position:relative;
 }
-.product_img{
+.product_img, .img_hidden{
     width:100%;    
 } 
 
@@ -94,4 +94,15 @@
     font-weight: lighter;
     text-decoration-line: line-through;
     color: gray;
+}
+
+/* interactions */
+.img_hidden{
+    position: absolute;
+    top: 0;
+    left:0;
+    display:none;
+}
+.card:hover .img_hidden{
+    display: block;
 }
